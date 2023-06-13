@@ -49,6 +49,13 @@ Twitter Reloaded is a Twitter clone project built using Django, Python, and SQLi
   pip install -r requirements.txt
   ```
 
+6. Create the database
+
+```zsh
+python manage.py migrate
+python manage.py makemigrations
+```
+
 
 ## :rocket: Running the project
 
